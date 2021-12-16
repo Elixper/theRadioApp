@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.wrapper{
+  color:white;
+  padding:30%;
+  height:max-content;
+  background-color: #2e2e30;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainTitle{
+  font-weight: bolder;
+  background-color:#ECAD60;
+  border-radius: 30px 30px 0 0;
+  height: 16vh;
+  font-size: 1.6rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.icon{
+  height:1.6rem;
+  filter: brightness(0) invert(1);
+}
+.power {
+  height:1.4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.radioBox{
+  background-color: #2F2F39;
+  align-items: center;
+  transition: 0.55s;
+}
+.radioBox:hover{
+background-color: #3c3c55;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.radioBox p{
+  color:#9F9FAC;
+  font-size:1.2rem;
+}
+
+.radioBox img{
+border-radius:50%;
+width:50%;
+display:flex;
+margin:auto;
+}
+
+.radioTitle{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 1rem 1rem 1rem;
+  height: 0.4rem;
+}
+
+.radioInfo{
+  display:flex;
+  list-style-type: none;
+}
+
+.hide{
+  display:none;
+}
+
+.imageStrip{
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.freq{
+  font-weight: bold;
+}
+
+.playingBox {
+  background-color: rgb(29, 28, 28);
+  text-align: center;
+  color: #ecad60;
+  font-size: 0.6rem;
+  padding: 1rem 2rem;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.playingBox p{
+  color:#9F9FAC;
+  font-size:1.2rem;
 }
